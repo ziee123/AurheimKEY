@@ -1,0 +1,7 @@
+name: AurheimKEY
+version: 1.0-GITHUB
+main: com.aurheim.AurheimKEY
+api-version: '1.20'
+commands:
+  akey:
+    usage: /akey give <player>
