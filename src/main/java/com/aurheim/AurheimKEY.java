@@ -11,6 +11,6 @@ public class AurheimKEY extends JavaPlugin {
             sender.sendMessage("§aKunci dikasih ke " + t.getName());
             return true;
         });
-        getServer().getPluginManager().registerEvents(new VaultOpener(), this);
+        getServer().getPluginManager().registerEvents(new VaultOpener(this), this);
     }
 }
